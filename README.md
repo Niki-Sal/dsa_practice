@@ -17,6 +17,7 @@ function bobIsFirst(people){
   return people[0] == 'bob'
 }
 ```
+Time complexity would be O(1)
 ---
 Function 2 Time Complexity:
 
@@ -33,6 +34,7 @@ function wordOccurrence(word, phrase){
   return result
 }
 ```
+Time complexity would be O(N)
 ---
 Function 3 Time Complexity:
 
@@ -51,14 +53,14 @@ function sort(list){
   return list;
 }
 ```
-
+Time complexity would be O(N^2)
 ---
 
 ### Written Questions
 
-- What method would you use to look up a word in a dictionary (book, not Python)?
+- What method would you use to look up a word in a dictionary (book, not Python)? Binary search
 
-- Imagine you have a closet full of shirts. What can you do to organize your shirts for easy retrieval?
+- Imagine you have a closet full of shirts. What can you do to organize your shirts for easy retrieval? bucket sort, based on colors
 
 - Describe advantages and disadvantages of the most popular sorting algorithms.
 
